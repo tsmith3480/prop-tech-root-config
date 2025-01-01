@@ -1,3 +1,3 @@
 {
-  "routes": [{ "src": "/(^(?!importpath.json$).*)", "dest": "/" }]
+  "routes": [{ "src": "/(^(?!importmap\\.json$).*)", "dest": "/" }]
 }
