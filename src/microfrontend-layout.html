@@ -1,0 +1,27 @@
+<single-spa-router>
+  <div id="prop-tech-layout">
+    <div id="prop-tech-topbar">
+      <application name="@prop-tech/top-bar"></application>
+    </div>
+    <div id="prop-tech-main" class="prop-tech-container">
+      <div id="prop-tech-nav">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/prop-tech-react">React App</a></li>
+          <li><a href="/side-nav">Svelte App</a></li>
+        </ul>
+      </div>
+      <main>
+        <route default>
+          <div>Micro Front-end App</div>
+        </route>
+        <route path="/prop-tech-react">
+          <application name="@prop-tech/prop-tech-react"></application>
+        </route>
+        <route path="/side-nav">
+          <application name="@prop-tech/side-nav"></application>
+        </route>
+      </main>
+    </div>
+  </div>
+</single-spa-router>

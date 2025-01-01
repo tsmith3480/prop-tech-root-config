@@ -1,0 +1,8 @@
+{
+  "imports": {
+    "@prop-tech/root-config": "//localhost:9000/prop-tech-root-config.js",
+    "@prop-tech/prop-tech-react": "//localhost:8080/prop-tech-prop-tech-react.js",
+    "@prop-tech/side-nav": "//localhost:5000/prop-tech-side-nav.js",
+    "@prop-tech/top-bar": "//localhost:8080/js/app.js"
+  }
+}
