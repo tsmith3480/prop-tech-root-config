@@ -2,7 +2,7 @@
   "imports": {
     "@prop-tech/root-config": "https://prop-tech-root-config.vercel.app/prop-tech-root-config.js",
     "@prop-tech/prop-tech-react": "//localhost:8080/prop-tech-prop-tech-react.js",
-    "@prop-tech/side-nav": "//localhost:5000/prop-tech-side-nav.js",
+    "@prop-tech/side-nav": "https://prop-tech-side-nav.vercel.app/prop-tech-side-nav.js",
     "@prop-tech/top-bar": "https://prop-tech-app-bar.vercel.app/js/app.js"
   }
 }
